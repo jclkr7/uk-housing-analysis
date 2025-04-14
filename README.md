@@ -34,10 +34,10 @@ The repository is structured as follows:
 ```
 uk-housing-analysis
 │   eda.ipynb                           # Main Jupyter notebook with all analysis
-│   rightmove_borough_prices.png        # Visualisation of borough-level prices
-│   rightmove_london_data.csv           # Scraped property data from Rightmove
+│   rightmove_borough_prices.png        
+│   rightmove_london_data.csv           
 │   README.md                           # Current File
-│   rightmove_property_type_prices.png  # Visualisation of property type prices
+│   rightmove_property_type_prices.png  
 │
 └───data
     │   aff1ratioofhousepricetoworkplacebasedearnings2024.xlsx  # Data for Affordability
@@ -176,36 +176,25 @@ To replicate the analysis on your local machine, follow these steps:
    cd uk-housing-analysis
    ```
 
-2. **(Optional) Set Up a Virtual Environment:**
-   ```bash
-   # On macOS/Linux:
-   python -m venv env
-   source env/bin/activate
-
-   # On Windows:
-   python -m venv env
-   env\Scripts\activate
-   ```
-
-3. **Install the Required Packages:**
+2. **Install the Required Packages:**
    ```bash
    pip install pandas numpy matplotlib seaborn requests scikit-learn beautifulsoup4 lxml jupyter
    ```
 
-4. **Launch Jupyter Notebook:**
+3. **Launch Jupyter Notebook:**
    ```bash
    jupyter notebook
    ```
    Then, open the file `eda.ipynb`.
 
-5. **Execute the Notebook Cells Sequentially:**
+4. **Execute the Notebook Cells Sequentially:**
    Running through the notebook will:
    * Import and clean the datasets
    * Perform exploratory data analysis
    * Generate visualisations
    * Conduct statistical analyses
    * Create predictive models
-   * Produce figures that are saved to the `data/figures` directory
+   * Produce figures that are saved to the `data/figures` and `uk-housing-analysis` folder  directory
 
 ## Key Findings
 
@@ -253,7 +242,7 @@ Based on the analysis, several policy implications emerge:
 - Complete source code in `eda.ipynb`
 - Raw data files in the `data` directory
 - Processed data files in the `data/processed` directory  
-- Generated visualisations in the `data/figures` directory and RightMove visualisations in 'uk-housing-analysis' folder directory.
+- Generated visualisations in the `data/figures` directory and RightMove visualisations in `uk-housing-analysis` folder directory.
 - Comprehensive documentation in this README
 - Blog post in PDF format and as a link in `blog.txt`
 - Full git history in the `.git` directory
