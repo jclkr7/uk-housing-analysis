@@ -189,7 +189,7 @@ To replicate the analysis on your local machine, follow these steps:
 
 3. **Install the Required Packages:**
    ```bash
-   pip install pandas numpy matplotlib seaborn requests scikit-learn beautifulsoup4 lxml statsmodels jupyter datetime warnings
+   pip install pandas numpy matplotlib seaborn requests scikit-learn beautifulsoup4 lxml jupyter
    ```
 
 4. **Launch Jupyter Notebook:**
@@ -253,13 +253,11 @@ Based on the analysis, several policy implications emerge:
 - Complete source code in `eda.ipynb`
 - Raw data files in the `data` directory
 - Processed data files in the `data/processed` directory  
-- Generated visualisations in the `data/figures` directory and RightMove visualisations in 'uk-housing-analysis' directory.
+- Generated visualisations in the `data/figures` directory and RightMove visualisations in 'uk-housing-analysis' folder directory.
 - Comprehensive documentation in this README
 - Blog post in PDF format and as a link in `blog.txt`
 - Full git history in the `.git` directory
 
-## Contact Information
-
-Any errors or require further clarification:
+## Report Issues
 
 * **GitHub Issues:** https://github.com/jclkr7/uk-housing-analysis/issues
