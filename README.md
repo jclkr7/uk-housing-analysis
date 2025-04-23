@@ -1,8 +1,9 @@
 # uk-housing-analysis
 
-# UK Housing Market Analysis: London's Affordability Crisis
+# London’s Housing Affordability Crisis: A Data-Driven Analysis of the UK Property Market
 
 **GitHub Repository:** https://github.com/jclkr7/uk-housing-analysis
+
 **Blog Post** https://dataanalysisuk7.wordpress.com/2025/04/14/londons-housing-affordability-crisis-a-data-driven-analysis-of-the-uk-property-market/
 (Total of 2,457 words)
 
