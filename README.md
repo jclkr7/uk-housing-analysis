@@ -2,26 +2,14 @@
 
 # UK Housing Market Analysis: London's Affordability Crisis
 
-This repository contains my final empirical project for BEE2041 – Data Science in Economics. The project presents a data-driven investigation into UK housing market trends, with particular focus on London's housing affordability compared to other UK regions. All analysis and visualisations have been produced using Python in Jupyter Notebook (eda.ipynb).
-
 **GitHub Repository:** https://github.com/jclkr7/uk-housing-analysis
+**Blog Post** https://dataanalysisuk7.wordpress.com/2025/04/14/londons-housing-affordability-crisis-a-data-driven-analysis-of-the-uk-property-market/
+(Total of 2,457 words)
 
 ## Project Overview
+This project presents a comprehensive data-driven analysis of the UK housing market with a focus on London's affordability crisis compared to other regions. Using historical data from 1995-2025, the analysis reveals how London's housing market has evolved over three decades and examines the widening affordability gap that impacts millions of residents, particularly first-time buyers, providing valuable insights for policymakers, researchers, and potential homebuyers interested in understanding historical trends and future projections.
 
-This project employs several real-world datasets to empirically analyse trends in UK housing prices and affordability. The key objectives are to:
-
-* **Examine House Price Trends** – Analyse overall national and regional differences in house price growth since 1995, with a special focus on London boroughs
-* **Assess Housing Affordability** – Utilise price-to-earnings ratios to evaluate affordability across different regions of the UK
-* **Compare Property Types** – Investigate price variations across different property types (detached, semi-detached, terraced, flats)
-* **Analyse COVID-19 Impact** – Evaluate how the pandemic affected housing markets across different UK regions
-* **Forecast Future Trends** – Employ predictive modelling to project housing price trajectories
-
-The analysis addresses three main research questions:
-1. How has housing affordability in London evolved over the past 25 years compared to the rest of England?
-2. What factors contribute to the significant price-to-income ratio disparity between London and other regions?
-3. How has the COVID-19 pandemic affected housing affordability across different UK regions?
-
-This project employs linear regression modelling techniques from Unit 5 of the course to forecast future housing prices in London through 2030, demonstrating the application of predictive analytics to economic data. The time series analysis and forecasting methodology allows for robust projections based on historical trends while accounting for non-linear growth patterns.
+The project combines multiple data sources (UK House Price Index, ONS price-to-earnings ratios, Rightmove listings), diverse analytical approaches (historical trend analysis, web scraping, statistical modelling, etc.), and data visualisation techniques to create an evidence-based assessment of housing market dynamics with significant policy implications.
 
 ## Version Control
 
@@ -54,6 +42,8 @@ uk-housing-analysis
     │       london_prices_by_property_type.png
     │       london_property_type_affordability.png
     │       london_property_type_trends.png
+    │       price_to_earnings_heatmap.png          
+    │       year_over_year_growth_average.png      
     │       yearly_growth_heatmap_boldlabels.png
     │
     └───processed
@@ -61,14 +51,6 @@ uk-housing-analysis
             key_regions_ratio_data.csv  # Processed affordability ratio data
             london_hpi_data.csv         # Processed London-specific HPI data
 ```
-
-## Blog Post
-
-The analysis is presented as a data-driven blog post titled "London's Housing Affordability Crisis: A Data-Driven Analysis of the UK Property Market". The post contains 1961 words and features 7 data visualisations, analysing trends in house prices, affordability ratios, and regional disparities from 1995 to 2025 with projections to 2030.
-
----
-
-This project offers a comprehensive analysis of the UK housing market with a focus on London's affordability crisis, providing valuable insights for policymakers, researchers, and potential homebuyers interested in understanding historical trends and future projections of the housing market.
 
 ## Data Sources
 
@@ -195,47 +177,6 @@ To replicate the analysis on your local machine, follow these steps:
    * Conduct statistical analyses
    * Create predictive models
    * Produce figures that are saved to the `data/figures` and `uk-housing-analysis` folder  directory
-
-## Key Findings
-
-### Historical Price Trends
-1. London house prices have grown significantly faster than any other region in England over the past 25 years
-2. The average London property price increased from approximately £84,000 in 1990 to over £550,000 by 2025, representing more than a 550% increase
-3. Detached properties in London have seen the most dramatic price increases, reaching an average of £1,150,000, compared to semi-detached (£710,000), terraced (£630,000), and flats (£450,000)
-
-### Affordability Crisis
-1. The price-to-earnings ratio in London has more than doubled since 1997, from around 4.9 to over 11 in 2024
-2. London's affordability ratio has consistently been 40-55% higher than the England average over the past decade
-3. First-time buyers face particularly challenging conditions, with the price-to-earnings ratio for entry-level properties reaching historic highs
-
-### Regional Disparities
-1. The North-South divide in housing affordability has widened significantly since 2000
-2. The North East maintains the most affordable housing market in England, with price-to-earnings ratios consistently below 6
-3. The South East and East of England have followed London's trend of decreasing affordability, though at a less severe rate
-
-### COVID-19 Impact
-1. The COVID-19 pandemic initially caused market uncertainty in 2020, followed by significant price increases across all regions in 2021-2022
-2. London experienced a temporary dip in prices during the early pandemic, contrary to the growth seen in more rural areas
-3. Post-pandemic recovery has been uneven, with London showing slower growth compared to other regions
-
-### Future Projections
-1. The predictive model suggests London house prices will continue to increase, potentially reaching an average of £800,000 by 2030
-2. The affordability crisis is likely to persist unless significant policy interventions are implemented
-3. The gap between first-time buyers and existing homeowners is projected to widen further
-
-### Property Market Segmentation
-1. The Rightmove data analysis shows significant price variation across London boroughs, with central areas commanding premium prices (ranging from £32,000,000 in Merton to under £1,100,000 in Lambeth)
-2. Property type remains a major determinant of price, with detached houses typically costing more than twice as much as flats (affordability ratio of 27.8x for detached homes vs 11.1x for flats)
-3. The gap between first-time buyers and existing homeowners has widened to approximately 44% in 2024, with first-time buyers paying around £485,000 and existing homeowners paying £700,000
-
-## Policy Implications
-
-Based on the analysis, several policy implications emerge:
-
-1. Without intervention, housing will continue to be unaffordable for average earners in London, exacerbating inequality
-2. Regional development policies may help reduce the North-South affordability divide
-3. Specific support for first-time buyers remains critical to prevent further widening of the wealth gap between homeowners and non-homeowners
-
 
 ## Submission Contents
 
